@@ -1,24 +1,14 @@
-# README
+# rails6.1.4 のテンプレート
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- mac 環境でエラーを吐くのがめんどくさいから作成
 
-Things you may want to cover:
+## インストール方法
 
-* Ruby version
+mac
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```sh
+sudo bundle
+yarn
+# プロジェクト名変更
+rails g rename:into New-Name
+```
